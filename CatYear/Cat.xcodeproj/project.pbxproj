@@ -12,16 +12,18 @@
 		8187FF3D233BACB400E7FEC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8187FF3B233BACB400E7FEC9 /* Main.storyboard */; };
 		8187FF3F233BACCB00E7FEC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8187FF3E233BACCB00E7FEC9 /* Assets.xcassets */; };
 		8187FF42233BACCC00E7FEC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8187FF40233BACCC00E7FEC9 /* LaunchScreen.storyboard */; };
+		8187FF4A233BCE7500E7FEC9 /* imageGato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8187FF49233BCE7500E7FEC9 /* imageGato.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8187FF34233BACB400E7FEC9 /* CatYear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatYear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8187FF34233BACB400E7FEC9 /* Cat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8187FF37233BACB400E7FEC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8187FF39233BACB400E7FEC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8187FF3C233BACB400E7FEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8187FF3E233BACCB00E7FEC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8187FF41233BACCC00E7FEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8187FF43233BACCC00E7FEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8187FF49233BCE7500E7FEC9 /* imageGato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imageGato.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,7 @@
 		8187FF35233BACB400E7FEC9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8187FF34233BACB400E7FEC9 /* CatYear.app */,
+				8187FF34233BACB400E7FEC9 /* Cat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +62,7 @@
 				8187FF3E233BACCB00E7FEC9 /* Assets.xcassets */,
 				8187FF40233BACCC00E7FEC9 /* LaunchScreen.storyboard */,
 				8187FF43233BACCC00E7FEC9 /* Info.plist */,
+				8187FF49233BCE7500E7FEC9 /* imageGato.jpg */,
 			);
 			path = CatYear;
 			sourceTree = "<group>";
@@ -67,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8187FF33233BACB400E7FEC9 /* CatYear */ = {
+		8187FF33233BACB400E7FEC9 /* Cat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8187FF46233BACCC00E7FEC9 /* Build configuration list for PBXNativeTarget "CatYear" */;
+			buildConfigurationList = 8187FF46233BACCC00E7FEC9 /* Build configuration list for PBXNativeTarget "Cat" */;
 			buildPhases = (
 				8187FF30233BACB400E7FEC9 /* Sources */,
 				8187FF31233BACB400E7FEC9 /* Frameworks */,
@@ -79,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = CatYear;
+			name = Cat;
 			productName = CatYear;
-			productReference = 8187FF34233BACB400E7FEC9 /* CatYear.app */;
+			productReference = 8187FF34233BACB400E7FEC9 /* Cat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8187FF2F233BACB400E7FEC9 /* Build configuration list for PBXProject "CatYear" */;
+			buildConfigurationList = 8187FF2F233BACB400E7FEC9 /* Build configuration list for PBXProject "Cat" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8187FF33233BACB400E7FEC9 /* CatYear */,
+				8187FF33233BACB400E7FEC9 /* Cat */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +127,7 @@
 			files = (
 				8187FF42233BACCC00E7FEC9 /* LaunchScreen.storyboard in Resources */,
 				8187FF3F233BACCB00E7FEC9 /* Assets.xcassets in Resources */,
+				8187FF4A233BCE7500E7FEC9 /* imageGato.jpg in Resources */,
 				8187FF3D233BACB400E7FEC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8187FF2F233BACB400E7FEC9 /* Build configuration list for PBXProject "CatYear" */ = {
+		8187FF2F233BACB400E7FEC9 /* Build configuration list for PBXProject "Cat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8187FF44233BACCC00E7FEC9 /* Debug */,
@@ -324,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8187FF46233BACCC00E7FEC9 /* Build configuration list for PBXNativeTarget "CatYear" */ = {
+		8187FF46233BACCC00E7FEC9 /* Build configuration list for PBXNativeTarget "Cat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8187FF47233BACCC00E7FEC9 /* Debug */,
